@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Showroom</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success bg-success text-light" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <h1 style="text-align: center ; margin: 50px;">
+        Wellcome! To Prestige Motors<span class="badge text-bg-secondary"
+          >New</span
+        >
+      </h1>
+    </header>
+    <main>
+      <section
+        class="grid"
+        style="
+          display: grid;
+          grid-template-columns: auto auto auto;
+          margin: 100px;
+        "
+      >
+        <div class="card" style="width: 18rem">
+          <img src="./images/astonmartin.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Aston Martin DB12</h5>
+            <p class="card-text">
+              Aston Martin DB12 price for the base model is Rs. 4.59 Crore (Avg.
+              ex-showroom). DB12 price for 1 variant is listed below...
+            </p>
+            <a href="#" class="btn btn-primary">more Info</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./images/porsche.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">porsche 911</h5>
+            <p class="card-text">
+              Porsche 911 price for the base model starts at Rs. 1.86 Crore and
+              the top model price goes upto Rs. 4.26 Crore (Avg. ex-showroom)...
+            </p>
+            <a href="#" class="btn btn-primary">more Info</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./images/ferreari.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Ferreari 296 GTB</h5>
+            <p class="card-text">
+              Ferrari 296 GTB price for the base model is Rs. 5.40 Crore (Avg.
+              ex-showroom). 296 GTB price for 1 variant is listed below...
+            </p>
+            <a href="#" class="btn btn-primary">more Info</a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                <b> Why Should you buy the Ferrari 296 GTB?</b>
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  It may not have the pure saccharinity of a naturally aspirated
+                  V8 Ferrari but the 296 GTB is as Italian as it comes. It's
+                  gorgeous to look at, sounds glorious when you boot it, and
+                  most remarkably, is surprisingly easy to drive. The plug-in
+                  hybrid system only adds to the appeal of this remarkable
+                  model. Basically, the 296 GTB is everything you would want in
+                  a thinking man's supercar.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                <b>What is Top Speed Of Porsche 911?</b>
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>291 to 330 kmph</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                <b>What is The Top Speed Of Aston Martin DB12 ?</b>
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  325 kmph</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer  class="bg-secondary text-light" style="margin-top: 30px; padding: 20px;">
+      <p>&copy; Prestige Motors.All Rights Reserved</p>
+      <p>Address : Kedar Nandakhal Post-Agashi Virar(West). Shop No.101</p>
+      <p>Phone : +91 9156920877</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
